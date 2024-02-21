@@ -1,0 +1,557 @@
+Sun Jun  4 01:54:11 UTC 2023
+Linux LinuxMachine 5.10.16.3-microsoft-standard-WSL2 #1 SMP Fri Apr 2 22:23:49 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+uid=1000(cssuwbstudent) gid=1000(cssuwbstudent) groups=1000(cssuwbstudent),10(wheel)
+=====================================================
+1. Compiles without warnings with -Wall -Wextra flags
+=====================================================
+=====================================================
+2. Runs and produces correct output
+=====================================================
+Start testStore1
+End testStore1
+Start testStore2
+End testStore2
+=====================================
+Start testStoreFinal
+----------------------------MovieInventory------------------------------------------------------------
+
+stock:  10  director:  Woody Allen         title:  Annie Hall                         year: 1977 
+stock:  10  director:  Joel Coen           title:  Fargo                              year: 1996 
+stock:  10  director:  John Landis         title:  National Lampoon's Animal House    year: 1978 
+stock:  10  director:  Different Years     title:  Pirates of the Caribbean           year: 2000 
+stock:  10  director:  Gore Verbinski      title:  Pirates of the Caribbean           year: 2003 
+stock:  10  director:  Nora Ephron         title:  Sleepless in Seattle               year: 1993 
+stock:  10  director:  Rob Reiner          title:  When Harry Met Sally               year: 1989 
+stock:  10  director:  Nora Ephron         title:  You've Got Mail                    year: 1998 
+
+stock:  10  director:   Barry Levinson     title:  Good Morning Vietnam               year: 1988 
+stock:  10  director:   Barry Levinson     title:  Same Director Good Morning Vietnam year: 1988 
+stock:  10  director:   Clint Eastwood     title:  Unforgiven                         year: 1992 
+stock:  10  director:   Gus Van Sant       title:  Good Will Hunting                  year: 2000 
+stock:  10  director:   Jonathan Demme     title:  Silence of the Lambs               year: 1991 
+stock:  10  director:   Nancy Savoca       title:  Dogfight                           year: 1991 
+stock:  10  director:   Phillippe De Broca title:  King of Hearts                     year: 1967 
+stock:  10  director:   Steven Spielberg   title:  Schindler's List                   year: 1993 
+
+stock:  20  director:  George Cukor        title:  Holiday                            year: 1938  month: 9 
+stock:  20  director:  Victor Fleming      title:  Gone With the Wind                 year: 1939  month: 2 
+stock:  10  director:  Victor Fleming      title:  The Wizard of Oz                   year: 1939  month: 7 
+stock:  20  director:  George Cukor        title:  The Philadelphia Story             year: 1940  month: 5 
+stock:  10  director:  John Huston         title:  The Maltese Falcon                 year: 1941  month: 10 
+stock:  20  director:  Michael Curtiz      title:  Casablanca                         year: 1942  month: 8 
+stock:  20  director:  Frank Capra         title:  It's a Wonderful Life              year: 1946  month: 11 
+stock:  10  director:  Stanley Kubrick     title:  A Clockwork Orange                 year: 1971  month: 2 
+stock:  10  director:  Hal Ashby           title:  Harold and Maude                   year: 1971  month: 3 
+
+----------------------------------------------------------------------
+
+Invalid Movie Request: Good Morning Vietnam not found
+
+Invalid Movie Genre: Z not found
+
+Invalid Movie Request: Good Will Hunting not found
+
+Invalid Movie Request: King of Hearts not found
+
+Invalid Movie Request: Silence of the Lambs not found
+
+Invalid Transaction Type: X not found
+
+Invalid Movie Request: Dogfight not found
+
+Invalid Movie Request: Schindler's List not found
+
+Invalid Transaction Type: Z not found
+
+Invalid Movie Request: Dogfight not found
+
+Invalid Movie Request: Unforgiven not found
+
+Invalid Customer ID: 1234 not found
+
+Invalid Transaction Type: D not found
+
+Invalid Movie Request: Bogus Title not found
+
+Invalid Movie Genre: F not found
+
+Invalid Transaction Type: F not found
+
+Invalid Movie Request: Bogus Title not found
+
+----------------------------MovieInventory------------------------------------------------------------
+
+stock:  10  director:  Woody Allen         title:  Annie Hall                         year: 1977 
+stock:  10  director:  Joel Coen           title:  Fargo                              year: 1996 
+stock:  10  director:  John Landis         title:  National Lampoon's Animal House    year: 1978 
+stock:  10  director:  Different Years     title:  Pirates of the Caribbean           year: 2000 
+stock:  10  director:  Gore Verbinski      title:  Pirates of the Caribbean           year: 2003 
+stock:  10  director:  Nora Ephron         title:  Sleepless in Seattle               year: 1993 
+stock:  10  director:  Rob Reiner          title:  When Harry Met Sally               year: 1989 
+stock:  10  director:  Nora Ephron         title:  You've Got Mail                    year: 1998 
+
+stock:  10  director:   Barry Levinson     title:  Good Morning Vietnam               year: 1988 
+stock:  10  director:   Barry Levinson     title:  Same Director Good Morning Vietnam year: 1988 
+stock:  10  director:   Clint Eastwood     title:  Unforgiven                         year: 1992 
+stock:  10  director:   Gus Van Sant       title:  Good Will Hunting                  year: 2000 
+stock:  10  director:   Jonathan Demme     title:  Silence of the Lambs               year: 1991 
+stock:  10  director:   Nancy Savoca       title:  Dogfight                           year: 1991 
+stock:  10  director:   Phillippe De Broca title:  King of Hearts                     year: 1967 
+stock:  10  director:   Steven Spielberg   title:  Schindler's List                   year: 1993 
+
+stock:  20  director:  George Cukor        title:  Holiday                            year: 1938  month: 9 
+stock:  20  director:  Victor Fleming      title:  Gone With the Wind                 year: 1939  month: 2 
+stock:  10  director:  Victor Fleming      title:  The Wizard of Oz                   year: 1939  month: 7 
+stock:  20  director:  George Cukor        title:  The Philadelphia Story             year: 1940  month: 5 
+stock:  10  director:  John Huston         title:  The Maltese Falcon                 year: 1941  month: 10 
+stock:  20  director:  Michael Curtiz      title:  Casablanca                         year: 1942  month: 8 
+stock:  20  director:  Frank Capra         title:  It's a Wonderful Life              year: 1946  month: 11 
+stock:  10  director:  Stanley Kubrick     title:  A Clockwork Orange                 year: 1971  month: 2 
+stock:  10  director:  Hal Ashby           title:  Harold and Maude                   year: 1971  month: 3 
+
+----------------------------------------------------------------------
+
+End testStoreFinal
+=====================================
+Done.
+=====================================================
+3. clang-tidy warnings are fixed
+=====================================================
+13890 warnings generated.
+29207 warnings generated.
+43098 warnings generated.
+56989 warnings generated.
+72320 warnings generated.
+86211 warnings generated.
+101528 warnings generated.
+116845 warnings generated.
+130734 warnings generated.
+142097 warnings generated.
+155987 warnings generated.
+171304 warnings generated.
+185194 warnings generated.
+202619 warnings generated.
+216508 warnings generated.
+Suppressed 216508 warnings (216508 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+=====================================================
+4. clang-format does not find any formatting issues
+=====================================================
+Running clang-format on ./borrow.cpp
+Running clang-format on ./business.cpp
+Running clang-format on ./classic.cpp
+Running clang-format on ./comedy.cpp
+Running clang-format on ./customer.cpp
+Running clang-format on ./drama.cpp
+Running clang-format on ./hashtable.cpp
+Running clang-format on ./history.cpp
+Running clang-format on ./inventory.cpp
+Running clang-format on ./main.cpp
+Running clang-format on ./movie.cpp
+Running clang-format on ./moviefactory.cpp
+Running clang-format on ./return.cpp
+Running clang-format on ./store_test.cpp
+Running clang-format on ./transaction.cpp
+=====================================================
+5. No memory leaks using g++
+=====================================================
+=====================================================
+6. No memory leaks using valgrind, look for "definitely lost" 
+=====================================================
+==19809== Memcheck, a memory error detector
+==19809== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==19809== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==19809== Command: ./a.out
+==19809== Parent PID: 19222
+==19809== 
+==19809== 
+==19809== HEAP SUMMARY:
+==19809==     in use at exit: 0 bytes in 0 blocks
+==19809==   total heap usage: 226 allocs, 226 frees, 127,681 bytes allocated
+==19809== 
+==19809== All heap blocks were freed -- no leaks are possible
+==19809== 
+==19809== For lists of detected and suppressed errors, rerun with: -s
+==19809== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+=====================================================
+7. Tests have full code coverage
+=====================================================
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/borrow.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Borrow::Borrow()                                                                                                 1       0 100.00%         1       0 100.00%         0       0   0.00%
+Borrow::~Borrow()                                                                                                1       0 100.00%         1       0 100.00%         0       0   0.00%
+Borrow::display() const                                                                                          1       1   0.00%         1       1   0.00%         0       0   0.00%
+Borrow::process(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Movie*)         7       7   0.00%        14      14   0.00%         4       4   0.00%
+Borrow::make()                                                                                                   1       1   0.00%         4       4   0.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           11       9  18.18%        21      19   9.52%         4       4   0.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/business.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Business::Business()                                                                                             1       0 100.00%         1       0 100.00%         0       0   0.00%
+Business::~Business()                                                                                            1       0 100.00%         1       0 100.00%         0       0   0.00%
+Business::createCustomerList(std::basic_ifstream<char, std::char_traits<char> >&)                                8       1  87.50%        15       3  80.00%         4       1  75.00%
+Business::createInventory(std::basic_ifstream<char, std::char_traits<char> >&)                                  10       0 100.00%        18       0 100.00%         8       1  87.50%
+Business::runTransactions(std::basic_ifstream<char, std::char_traits<char> >&)                                  35       2  94.29%        73       5  93.15%        26       4  84.62%
+Business::displayInventory() const                                                                               6       0 100.00%        13       0 100.00%         4       0 100.00%
+Business::displayCustomers() const                                                                               1       1   0.00%         4       4   0.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           62       4  93.55%       125      12  90.40%        42       6  85.71%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/classic.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Classic::Classic()                                                                                               1       0 100.00%         1       0 100.00%         0       0   0.00%
+Classic::~Classic()                                                                                              1       0 100.00%         1       0 100.00%         0       0   0.00%
+Classic::display() const                                                                                         1       0 100.00%        11       0 100.00%         0       0   0.00%
+Classic::setDataItems(std::basic_ifstream<char, std::char_traits<char> >&)                                       1       0 100.00%        16       0 100.00%         0       0   0.00%
+Classic::setTransData(std::basic_ifstream<char, std::char_traits<char> >&)                                       1       0 100.00%         3       0 100.00%         0       0   0.00%
+Classic::operator>(Movie const&) const                                                                          13      13   0.00%        16      16   0.00%         8       8   0.00%
+Classic::operator<(Movie const&) const                                                                          13       7  46.15%        16       8  50.00%         8       5  37.50%
+Classic::operator==(Movie const&) const                                                                          3       0 100.00%         4       0 100.00%         4       0 100.00%
+Classic::operator!=(Movie const&) const                                                                          1       1   0.00%         4       4   0.00%         0       0   0.00%
+Classic::create()                                                                                                1       0 100.00%         1       0 100.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           36      21  41.67%        73      28  61.64%        20      13  35.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/comedy.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Comedy::Comedy()                                                                                                 1       0 100.00%         1       0 100.00%         0       0   0.00%
+Comedy::~Comedy()                                                                                                1       0 100.00%         1       0 100.00%         0       0   0.00%
+Comedy::setDataItems(std::basic_ifstream<char, std::char_traits<char> >&)                                        1       0 100.00%         9       0 100.00%         0       0   0.00%
+Comedy::setTransData(std::basic_ifstream<char, std::char_traits<char> >&)                                        1       0 100.00%         5       0 100.00%         0       0   0.00%
+Comedy::operator<(Movie const&) const                                                                            4       0 100.00%         7       0 100.00%         2       0 100.00%
+Comedy::operator>(Movie const&) const                                                                            4       4   0.00%         7       7   0.00%         2       2   0.00%
+Comedy::operator==(Movie const&) const                                                                           3       0 100.00%         4       0 100.00%         4       0 100.00%
+Comedy::operator!=(Movie const&) const                                                                           1       1   0.00%         4       4   0.00%         0       0   0.00%
+Comedy::create()                                                                                                 1       0 100.00%         1       0 100.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           17       5  70.59%        39      11  71.79%         8       2  75.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/customer.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Customer::Customer()                                                                                             1       1   0.00%         5       5   0.00%         0       0   0.00%
+Customer::Customer(std::basic_ifstream<char, std::char_traits<char> >&)                                          4       0 100.00%         7       0 100.00%         2       0 100.00%
+Customer::~Customer()                                                                                            4       2  50.00%         7       4  42.86%         2       1  50.00%
+Customer::addHistory(Transaction*)                                                                               1       1   0.00%         1       1   0.00%         0       0   0.00%
+Customer::showHistory()                                                                                          7       7   0.00%        16      16   0.00%         4       4   0.00%
+Customer::showCustomer() const                                                                                   1       1   0.00%         3       3   0.00%         0       0   0.00%
+Customer::getID() const                                                                                          1       0 100.00%         1       0 100.00%         0       0   0.00%
+Customer::getFirstName[abi:cxx11]() const                                                                        1       1   0.00%         1       1   0.00%         0       0   0.00%
+Customer::getLastName[abi:cxx11]() const                                                                         1       1   0.00%         1       1   0.00%         0       0   0.00%
+Customer::operator==(Customer const&) const                                                                      1       1   0.00%         1       1   0.00%         0       0   0.00%
+Customer::operator!=(Customer const&) const                                                                      1       1   0.00%         1       1   0.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           23      16  30.43%        44      33  25.00%         8       5  37.50%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/drama.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Drama::Drama()                                                                                                   1       0 100.00%         1       0 100.00%         0       0   0.00%
+Drama::~Drama()                                                                                                  1       0 100.00%         1       0 100.00%         0       0   0.00%
+Drama::setDataItems(std::basic_ifstream<char, std::char_traits<char> >&)                                         1       0 100.00%         9       0 100.00%         0       0   0.00%
+Drama::setTransData(std::basic_ifstream<char, std::char_traits<char> >&)                                         1       0 100.00%         6       0 100.00%         0       0   0.00%
+Drama::operator<(Movie const&) const                                                                             5       0 100.00%         5       0 100.00%         6       1  83.33%
+Drama::operator>(Movie const&) const                                                                             5       5   0.00%         5       5   0.00%         6       6   0.00%
+Drama::operator==(Movie const&) const                                                                            3       0 100.00%         4       0 100.00%         4       1  75.00%
+Drama::operator!=(Movie const&) const                                                                            1       1   0.00%         4       4   0.00%         0       0   0.00%
+Drama::create()                                                                                                  1       0 100.00%         1       0 100.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           19       6  68.42%        36       9  75.00%        16       8  50.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/hashtable.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HashTable::HashTable()                                                                                           1       0 100.00%         1       0 100.00%         0       0   0.00%
+HashTable::~HashTable()                                                                                          1       0 100.00%         1       0 100.00%         0       0   0.00%
+HashTable::makeEmpty()                                                                                           4       0 100.00%         6       0 100.00%         2       0 100.00%
+HashTable::insert(Customer*)                                                                                    10       7  30.00%        14       8  42.86%         6       5  16.67%
+HashTable::retrieve(int, Customer*&) const                                                                      15       1  93.33%        17       3  82.35%        10       2  80.00%
+HashTable::hashValue(int)                                                                                        1       0 100.00%         1       0 100.00%         0       0   0.00%
+HashTable::display() const                                                                                       6       6   0.00%         7       7   0.00%         4       4   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           38      14  63.16%        47      18  61.70%        22      11  50.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/history.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+History::History()                                                                                               1       0 100.00%         1       0 100.00%         0       0   0.00%
+History::~History()                                                                                              1       0 100.00%         1       0 100.00%         0       0   0.00%
+History::process(Customer*)                                                                                      1       1   0.00%         4       4   0.00%         0       0   0.00%
+History::create()                                                                                                1       0 100.00%         1       0 100.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                            4       1  75.00%         7       4  42.86%         0       0   0.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/inventory.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Inventory::Inventory()                                                                                           1       0 100.00%         1       0 100.00%         0       0   0.00%
+Inventory::~Inventory()                                                                                          1       0 100.00%         1       0 100.00%         0       0   0.00%
+Inventory::isEmpty() const                                                                                       1       0 100.00%         1       0 100.00%         0       0   0.00%
+Inventory::makeEmpty()                                                                                           1       0 100.00%         4       0 100.00%         0       0   0.00%
+Inventory::helperMakeEmpty(Inventory::Node*)                                                                     4       0 100.00%        13       0 100.00%         2       0 100.00%
+Inventory::insert(Movie*)                                                                                        1       0 100.00%         3       0 100.00%         0       0   0.00%
+Inventory::helperInsert(Movie*, Inventory::Node*&)                                                              10       0 100.00%        13       0 100.00%         6       0 100.00%
+Inventory::retrieve(Movie const&, Movie*&) const                                                                 1       0 100.00%         4       0 100.00%         0       0   0.00%
+Inventory::helperRetrieve(Inventory::Node const*, Movie const&, Movie*&) const                                  10       0 100.00%        11       0 100.00%         6       0 100.00%
+Inventory::display() const                                                                                       1       0 100.00%         1       0 100.00%         0       0   0.00%
+Inventory::helperDisplay(Inventory::Node*) const                                                                 3       0 100.00%         7       0 100.00%         2       0 100.00%
+Inventory::displayGenre() const                                                                                  1       1   0.00%         1       1   0.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           35       1  97.14%        60       1  98.33%        16       0 100.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/main.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+main                                                                                                             1       0 100.00%         5       0 100.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                            1       0 100.00%         5       0 100.00%         0       0   0.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/movie.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Movie::Movie()                                                                                                   1       0 100.00%         7       0 100.00%         0       0   0.00%
+Movie::~Movie()                                                                                                  1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::display() const                                                                                           1       0 100.00%        10       0 100.00%         0       0   0.00%
+Movie::setDataItems(std::basic_ifstream<char, std::char_traits<char> >&)                                         1       1   0.00%         8       8   0.00%         0       0   0.00%
+Movie::addStock()                                                                                                1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::reduceStock()                                                                                             1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::addStock(int)                                                                                             1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::getStock() const                                                                                          1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::getGenre() const                                                                                          1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::getYear() const                                                                                           1       1   0.00%         1       1   0.00%         0       0   0.00%
+Movie::getTitle[abi:cxx11]() const                                                                               1       0 100.00%         1       0 100.00%         0       0   0.00%
+Movie::getDirector[abi:cxx11]() const                                                                            1       1   0.00%         1       1   0.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           12       6  50.00%        34      13  61.76%         0       0   0.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/moviefactory.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MovieFactory::MovieFactory()                                                                                     4       0 100.00%        12       0 100.00%         2       0 100.00%
+MovieFactory::~MovieFactory()                                                                                    4       0 100.00%         8       0 100.00%         2       0 100.00%
+MovieFactory::createMovie(char, std::basic_ifstream<char, std::char_traits<char> >&)                             4       0 100.00%         9       0 100.00%         2       0 100.00%
+MovieFactory::createTransaction(char, std::basic_ifstream<char, std::char_traits<char> >&)                       4       0 100.00%         9       0 100.00%         2       0 100.00%
+MovieFactory::hash(char)                                                                                         4       1  75.00%         1       0 100.00%         2       1  50.00%
+MovieFactory::subscript(char)                                                                                    1       0 100.00%         1       0 100.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           21       1  95.24%        40       0 100.00%        10       1  90.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/return.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Return::Return()                                                                                                 1       0 100.00%         1       0 100.00%         0       0   0.00%
+Return::~Return()                                                                                                1       0 100.00%         1       0 100.00%         0       0   0.00%
+Return::display() const                                                                                          1       1   0.00%         1       1   0.00%         0       0   0.00%
+Return::create()                                                                                                 1       0 100.00%         1       0 100.00%         0       0   0.00%
+Return::process(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Movie*)         3       3   0.00%         8       8   0.00%         2       2   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                            7       4  42.86%        12       9  25.00%         2       2   0.00%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/store_test.cpp':
+Name                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+testStore1()                                                                                                     3       0 100.00%        17       2  88.24%         2       0 100.00%
+testStore2()                                                                                                     1       0 100.00%         4       0 100.00%         0       0   0.00%
+testStoreFinal()                                                                                                 7       3  57.14%        22       6  72.73%         6       3  50.00%
+testAll()                                                                                                        1       0 100.00%         5       0 100.00%         0       0   0.00%
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                           12       3  75.00%        48       8  83.33%         8       3  62.50%
+
+File '/home/cssuwbstudent/343-movies-nicolasgioanni/transaction.cpp':
+Name                                                                                                                       Regions    Miss   Cover     Lines    Miss   Cover  Branches    Miss   Cover
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Transaction::Transaction()                                                                                                       1       0 100.00%         1       0 100.00%         0       0   0.00%
+Transaction::~Transaction()                                                                                                      1       0 100.00%         1       0 100.00%         0       0   0.00%
+Transaction::display() const                                                                                                     1       1   0.00%         3       3   0.00%         0       0   0.00%
+Transaction::process(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, Movie*, Customer*)         1       0 100.00%         3       0 100.00%         0       0   0.00%
+Transaction::getMovie()                                                                                                          1       1   0.00%         1       1   0.00%         0       0   0.00%
+Transaction::getMovieType() const                                                                                                1       1   0.00%         1       1   0.00%         0       0   0.00%
+Transaction::getActionType() const                                                                                               1       1   0.00%         1       1   0.00%         0       0   0.00%
+Transaction::create()                                                                                                            1       0 100.00%         1       0 100.00%         0       0   0.00%
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                                            8       4  50.00%        12       6  50.00%         0       0   0.00%
+=====================================================
+The lines below were never executed
+=====================================================
+    8|      0|void Borrow::display() const { cout << mediaType << " " << actionType << " "; }
+   10|      0|bool Borrow::process(string str, Movie *movie) {
+   11|      0|  if (movie == nullptr) {
+   12|      0|    return false;
+   13|      0|  }
+   14|      0|  item = movie;
+   15|      0|  mediaType = str;
+   17|      0|  if (movie->getStock() <= 0) {
+   18|      0|    cout << "Movie: " << movie->getTitle() << " is not in stock." << endl
+   19|      0|         << endl;
+   20|      0|    return false;
+   21|      0|  }
+   22|      0|  movie->reduceStock();
+   23|      0|  return true;
+   24|      0|}
+   27|      0|Transaction *Borrow::make() {
+   28|      0|  Transaction *newBorrow = new Borrow();
+   29|      0|  return newBorrow;
+   31|      0|}
+   21|      0|      delete create;
+   22|      0|      create = nullptr;
+   23|      0|    }
+   82|      0|          break;
+   83|      0|        }
+  113|      0|                customerPtr->addHistory(transactionPtr);
+  114|      0|                isTransactionToDelete = false;
+  115|      0|              }
+  155|      0|void Business::displayCustomers() const {
+  156|      0|  cout << "Current Customers List:" << endl << endl;
+  157|      0|  table.display();
+  158|      0|}
+   61|      0|bool Classic::operator>(const Movie &obj) const {
+   62|      0|  const Classic &classicsMov = static_cast<const Classic &>(obj);
+   63|      0|  if (year != classicsMov.year) {
+   64|      0|    return year > classicsMov.year;
+   65|      0|  }
+   66|      0|  if (month != classicsMov.month) {
+   67|      0|    return month > classicsMov.month;
+   68|      0|  }
+   69|      0|  if (firstName != classicsMov.firstName) {
+   70|      0|    return firstName > classicsMov.firstName;
+   71|      0|  }
+   72|      0|  if (lastName != classicsMov.lastName) {
+   73|      0|    return lastName > classicsMov.lastName;
+   74|      0|  }
+   75|      0|  return false;
+   76|      0|}
+   91|      0|  if (firstName != classicsMov.firstName) {
+   92|      0|    return firstName < classicsMov.firstName;
+   93|      0|  }
+   94|      0|  if (lastName != classicsMov.lastName) {
+   95|      0|    return lastName < classicsMov.lastName;
+   96|      0|  }
+   97|      0|  return false;
+   98|      0|}
+  108|      0|bool Classic::operator!=(const Movie &obj) const {
+  109|      0|  const Classic &classicsMov = static_cast<const Classic &>(obj);
+  110|      0|  return !(*this == classicsMov);
+  111|      0|}
+   49|      0|bool Comedy::operator>(const Movie &obj) const {
+   50|      0|  const Comedy &comedyMovie = static_cast<const Comedy &>(obj);
+   51|      0|  if (title != comedyMovie.title) {
+   52|      0|    return title > comedyMovie.title;
+   53|      0|  }
+   54|      0|  return year > comedyMovie.year;
+   55|      0|}
+   70|      0|bool Comedy::operator!=(const Movie &obj) const {
+   71|      0|  const Comedy &comedyMovie = static_cast<const Comedy &>(obj);
+   72|      0|  return !(*this == comedyMovie);
+   73|      0|}
+    4|      0|Customer::Customer() {
+    5|      0|  firstName = "";
+    6|      0|  lastName = "";
+    7|      0|  id = 0;
+    8|      0|}
+   28|      0|    Transaction *temp = cusHistory[i];
+   29|      0|    delete temp;
+   30|      0|    temp = nullptr;
+   31|      0|  }
+   35|      0|void Customer::addHistory(Transaction *tran) { cusHistory.push_back(tran); }
+   38|      0|void Customer::showHistory() {
+   39|      0|  if (cusHistory.empty()) {
+   40|      0|    cout << "Transaction history not available for Customer: " << id << endl
+   41|      0|         << endl;
+   42|      0|  } else {
+   43|      0|    cout << "Transaction History for Customer: " << id << " " << lastName
+   44|      0|         << ", " << firstName << endl;
+   46|      0|    for (int i = static_cast<int>(cusHistory.size()) - 1; i >= 0; i--) {
+   47|      0|      Transaction *temp = cusHistory[i];
+   48|      0|      cout << "Action Type: " << temp->getActionType() << "   Movie Title: ";
+   49|      0|      cout << temp->getMovie()->getTitle();
+   50|      0|      cout << endl;
+   51|      0|    }
+   52|      0|    cout << endl;
+   53|      0|  }
+   54|      0|}
+   57|      0|void Customer::showCustomer() const {
+   58|      0|  cout << firstName << " " << lastName << " " << id << endl;
+   59|      0|}
+   65|      0|string Customer::getFirstName() const { return firstName; }
+   68|      0|string Customer::getLastName() const { return lastName; }
+   72|      0|bool Customer::operator==(const Customer &obj) const { return id == obj.id; }
+   76|      0|bool Customer::operator!=(const Customer &obj) const { return id != obj.id; }
+   37|      0|bool Drama::operator>(const Movie &other) const {
+   38|      0|  const Drama &dramaMov = static_cast<const Drama &>(other);
+   39|      0|  return (director > dramaMov.director) ||
+   40|      0|         (director == dramaMov.director && title > dramaMov.title);
+   41|      0|}
+   51|      0|bool Drama::operator!=(const Movie &other) const {
+   52|      0|  const Drama &dramaMovie = static_cast<const Drama &>(other);
+   53|      0|  return !(*this == dramaMovie);
+   54|      0|}
+   22|      0|  for (int i = (index + 1) % MAX_SIZE; i != index; i = (i + 1) % MAX_SIZE) {
+   23|      0|    if (customersList[i] == nullptr) {
+   24|      0|      customersList[i] = cust;
+   25|      0|      return true;
+   26|      0|    }
+   27|      0|  }
+   29|      0|  return false;
+   30|      0|}
+   45|      0|      findCust = customersList[tempIndex];
+   46|      0|      return true;
+   47|      0|    }
+   57|      0|void HashTable::display() const {
+   58|      0|  for (int i = 0; i < MAX_SIZE; i++) {
+   59|      0|    if (customersList[i] != nullptr) {
+   60|      0|      customersList[i]->showCustomer();
+   61|      0|    }
+   62|      0|  }
+   63|      0|}
+   10|      0|bool History::process(Customer *cust) {
+   11|      0|  cust->showHistory();
+   12|      0|  return true;
+   13|      0|}
+   87|      0|void Inventory::displayGenre() const { cout << root->data->getGenre() << endl; }
+   28|      0|void Movie::setDataItems(ifstream &file) {
+   29|      0|  file.ignore();
+   30|      0|  getline(file, director, ',');
+   31|      0|  file.ignore();
+   32|      0|  getline(file, title, ',');
+   33|      0|  file.ignore();
+   34|      0|  file >> year;
+   35|      0|}
+   38|      0|void Movie::addStock() { stock++; }
+   41|      0|void Movie::reduceStock() { stock--; }
+   50|      0|char Movie::getGenre() const { return genre; }
+   53|      0|int Movie::getYear() const { return year; }
+   59|      0|string Movie::getDirector() const { return director; }
+   13|      0|void Return::display() const { cout << mediaType << " " << actionType << " "; }
+   20|      0|bool Return::process(string mediaName, Movie *movieType) {
+   21|      0|  if (movieType != nullptr) {
+   22|      0|    mediaType = mediaName;
+   23|      0|    item = movieType;
+   24|      0|    item->addStock();
+   25|      0|  }
+   26|      0|  return true;
+   27|      0|}
+   25|      0|  char commandType;
+   34|      0|  cout << "End testStore1" << endl;
+   48|      0|    cout << "Error reading customers file)" << endl;
+   49|      0|  }
+   52|      0|    cout << "Error reading movies file" << endl;
+   53|      0|  }
+   56|      0|    cout << "Error reading commands file" << endl;
+   57|      0|  }
+   10|      0|void Transaction::display() const {
+   11|      0|  cout << mediaType << " " << actionType << ": " << endl;
+   12|      0|}
+   25|      0|Movie *Transaction::getMovie() { return item; }
+   26|      0|char Transaction::getMovieType() const { return movieType; }
+   27|      0|char Transaction::getActionType() const { return actionType; }
+Sun Jun  4 01:54:47 UTC 2023
+=====================================================
+To create an output.txt file with all the output from this script
+Run the below command
+      ./create-output.sh > output.txt 2>&1 
+=====================================================
